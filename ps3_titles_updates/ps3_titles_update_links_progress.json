@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "total_titles": 3261,
+    "processed": 3261,
+    "found_updates": 1584,
+    "standard_updates": 2574,
+    "drm_free_updates": 0,
+    "total_size_bytes": 488555644624,
+    "errors": 0
+  },
+  "results_count": 3261,
+  "last_processed": "BLUS-90848"
+}
