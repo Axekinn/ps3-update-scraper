@@ -5,6 +5,16 @@
 [![Selenium](https://img.shields.io/badge/selenium-4.0+-green.svg)](https://selenium-python.readthedocs.io/)
  
 A comprehensive tool for scraping PS3 game titles from SerialStation.com and collecting their update download links directly from Sony's servers. This tool extracts information for all **3,261 PS3 titles** and finds both **standard** and **DRM-free** update packages.
+
+I'm already providing the result, and I'm including the scripts in case you want to do it yourself and Sony changes something in the future, or if you want to improve the script.
+The difference between ps3_updatesv1 and ps3_updates is that I modified the script in the meantime because it seemed strange to me to have so few updates.
+
+So v1 is what was originally released (I lost the original script), and without v1, this is what it is today with the script that goes with it.
+I can't be bothered to understand why, etc., but in any case, the result in ps3_downloads.json was exactly the same, so at any given time, the two versions of the scripts are exactly the same, just put differently.
+
+Feel free to rack your brains over it.
+I created this script because I wanted to download everything at once, and I couldn't be bothered to do it one ID at a time (with [PySN](https://github.com/AphelionWasTaken/PySN/tree/main)), so I did it to select everything at once and download it (hence the ps3_downloads).
+You can go to ps3_downloads, copy everything, and paste the download links into [Jdownloader](https://jdownloader.org/jdownloader2), which will retrieve and install everything. 
  
 ![PS3 Scraper Demo](https://img.shields.io/badge/Status-Active-brightgreen)
  
